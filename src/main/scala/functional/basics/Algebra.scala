@@ -27,7 +27,7 @@ object Algebra {
 
   def sumCurried(a: Double)(b: Double): Double = a + b
 
-  def sumCurried(a: Double): (Double) => Double = { b: Double =>
+  def sumCurriedHigherOrder(a: Double): (Double) => Double = { b: Double =>
     a + b
   }
 
