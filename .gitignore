@@ -1,0 +1,17 @@
+/RUNNING_PID
+/logs/
+/project/*-shim.sbt
+/project/project/
+/project/target/
+/target/
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+.DS_Store
+*/target/*
+*/project/*
+project/project/*
+target/*
+.history
